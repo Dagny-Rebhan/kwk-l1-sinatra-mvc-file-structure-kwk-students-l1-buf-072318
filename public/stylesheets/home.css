@@ -1,0 +1,32 @@
+body {
+  background-color: lavenderBlush;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'Kirang Haerang', cursive;
+font-size: 30px
+}
+a:visited {
+    color: black;}
+a:hover {
+    color: purple;}
+/*img */
+/*  {*/
+/*    height: 350px;*/
+/*    width: 800px;*/
+/*   }*/
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: impact, Charcoal, sans-sherif;
+}
+.container {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    
+}
+.button {
+border-radius: 12px;}
