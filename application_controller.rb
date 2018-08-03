@@ -8,8 +8,9 @@ require_relative "models/model.rb"
 class ApplicationController < Sinatra::Base
 
   configure do
-  	set :views, "app/views"
+  	set :views, "views"
   	set :public_dir, "public"
+  	set :models, "models"
   end
 
   get "/" do
