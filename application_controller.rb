@@ -1,7 +1,7 @@
 ENV['SINATRA_ENV'] ||= "development"
 ENV['RACK_ENV'] ||= "development"
 
-require 'bundle'
+require 'bundler'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 require_relative "models/model.rb"
 
